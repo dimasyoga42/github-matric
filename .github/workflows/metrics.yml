@@ -8,7 +8,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: dimasyoga42/metrics@latest
         with:
           template: repository
           filename: metrics.repository.svg
